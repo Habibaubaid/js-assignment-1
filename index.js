@@ -1,4 +1,4 @@
-var weather = prompt(`
+var weather = prompt (`
   Select Weather:
   1- winter
   2- summer
@@ -111,9 +111,7 @@ overflow: hidden;">
     </div>
 </div>`)
 }else if (weather === "spring") {
-  document.writeln(
-
-`
+  document.writeln(`
  <div class="d-flex align-items-center justify-content-center" style="
 height: 100vh;
 width: 100vw;
@@ -131,5 +129,5 @@ overflow: hidden;">
 </div>`)
 }
  else {
-  console.log("Tumhara dimagh kharab hai");
+  console.log("CHOOSE FROM THE GIVEN OPTIONS ONLY!");
 }
